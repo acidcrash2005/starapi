@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component Nav must have basic JSX markup: must match the layout markup 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(ConnectedRouterWithContext)
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ConnectedRouterWithContext
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+      onLocationChanged={[Function]}
+    >
+      <ConnectedRouter
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        onLocationChanged={[Function]}
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+      >
+        <Router
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+        >
+          <Nav>
+            <nav
+              className="navbar navbar-expand-lg navbar-light bg-light mb-4"
+            >
+              <div
+                className="container"
+              >
+                <Link
+                  className="navbar-brand"
+                  replace={false}
+                  to="/"
+                >
+                  <a
+                    className="navbar-brand"
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    Gena Karachentsev Test
+                  </a>
+                </Link>
+                <div
+                  className="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul
+                    className="navbar-nav ml-auto"
+                  >
+                    <li
+                      className="nav-item"
+                    >
+                      <Link
+                        className="nav-link"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="nav-link"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Home
+                        </a>
+                      </Link>
+                    </li>
+                    <li
+                      className="nav-item"
+                    >
+                      <Link
+                        className="nav-link"
+                        replace={false}
+                        to="/add"
+                      >
+                        <a
+                          className="nav-link"
+                          href="/add"
+                          onClick={[Function]}
+                        >
+                          Add Post
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </Nav>
+        </Router>
+      </ConnectedRouter>
+    </ConnectedRouterWithContext>
+  </Connect(ConnectedRouterWithContext)>
+</Provider>
+`;

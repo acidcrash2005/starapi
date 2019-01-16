@@ -1,0 +1,9 @@
+{
+    "name": "test-work",
+    "scripts": {
+      "start": "serve --single"
+    },
+    "dependencies": {
+      "serve": "latest"
+    }
+  }
